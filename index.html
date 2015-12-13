@@ -132,11 +132,11 @@ console.log("Next post:" + next);
 console.log("Last post:" + posts[posts.length-1]);
 
 $("#comics").attr("src", "/img/"+comicname+".png");
-$("#first-post").attr("href", posts[0]);
-$("#prev-post").attr("href", prev);
-$("#random-post").attr("href", random);
-$("#next-post").attr("href", next);
-$("#last-post").attr("href", posts[posts.length-1]);
+$("#first-post").attr("href", "/post/"+posts[0]);
+$("#prev-post").attr("href", "/post/"+prev);
+$("#random-post").attr("href", "/post/"+random);
+$("#next-post").attr("href", "/post/"+next);
+$("#last-post").attr("href", "/post/"+posts[posts.length-1]);
 
 
 </script>    
